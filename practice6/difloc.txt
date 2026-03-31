@@ -1,0 +1,1 @@
+this file was used for example of opening file from different location
