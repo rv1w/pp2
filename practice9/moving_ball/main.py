@@ -28,7 +28,11 @@ while True:
             elif event.key == pygame.K_RIGHT:
                 ball.move(20, 0, WIDTH, HEIGHT)
 
-    screen.fill((255, 255, 255))
+    screen.fill((34, 139, 34)) 
+
+    pygame.draw.line(screen, (255, 255, 255), (WIDTH//2, 0), (WIDTH//2, HEIGHT), 3)
+
+    pygame.draw.circle(screen, (255, 255, 255), (WIDTH//2, HEIGHT//2), 60, 3)
     ball.draw(screen)
 
     pygame.display.flip()

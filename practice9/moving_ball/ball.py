@@ -17,5 +17,8 @@ class Ball:
         if self.radius <= new_y <= height - self.radius:
             self.y = new_y
 
+    
     def draw(self, screen):
-        pygame.draw.circle(screen, (255, 17, 200), (self.x, self.y), self.radius)
+        pygame.draw.circle(screen, (255, 255, 255), (self.x, self.y), self.radius)
+        pygame.draw.circle(screen, (0, 0, 0), (self.x, self.y), self.radius, 2)
+        pygame.draw.circle(screen, (0, 0, 0), (self.x, self.y), 8)
