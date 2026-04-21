@@ -18,4 +18,4 @@ class Ball:
             self.y = new_y
 
     def draw(self, screen):
-        pygame.draw.circle(screen, (255, 0, 0), (self.x, self.y), self.radius)
+        pygame.draw.circle(screen, (255, 17, 200), (self.x, self.y), self.radius)
