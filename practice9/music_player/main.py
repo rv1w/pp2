@@ -13,8 +13,11 @@ font = pygame.font.SysFont("Arial", 28)
 small_font = pygame.font.SysFont("Arial", 20)
 
 tracks = [
-    "music/track1.mp3",
-    "music/track2.mp3"
+    "music/popolam.mp3",
+    "music/ivl.mp3",
+    "music/L.mp3",
+    "music/prostuda.mp3",
+    "music/Ya hochu s toboy.mp3",
 ]
 
 player = MusicPlayer(tracks)
