@@ -84,9 +84,9 @@ MAX_OBSTACLES       = 24
 DB_CONFIG = {
     "host":     os.getenv("PGHOST",     "localhost"),
     "port":     int(os.getenv("PGPORT", "5432")),
-    "dbname":   os.getenv("PGDATABASE", "snake_game"),
+    "dbname":   os.getenv("PGDATABASE", "snake"),
     "user":     os.getenv("PGUSER",     "postgres"),
-    "password": os.getenv("PGPASSWORD", ""),
+    "password": os.getenv("PGPASSWORD", "Iziparol123"),
 }
 
 # ── Directions ────────────────────────────────────────────────────────────────
